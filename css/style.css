@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif", serif;
+}
+body {
+    background-color: #f1f1f1;
+}
+/*nav area start*/
+header#header {
+    background: linear-gradient(to top, #2f5e76, #314755);
+    height: 310px;
+}
+.row.logo_text {
+}
+
+.logobox img {
+    width: 426px;
+    margin-left: 20px;
+}
+.textbox {
+    text-align: right;
+    color: white;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.textbox h4 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.textbox h2 {
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.textbox p {
+    font-size: 13px;
+    font-weight: 400;
+}
+.logobox {
+    padding-top: 20px;
+    margin-left: 0px;
+    width: 230px;
+}
+
+/*nav area end*/
+/*form area start*/
+
+.headertext p {
+    text-align: center;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+section.formsection {
+    margin-top: -170px;
+}
+.formandimage {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 1em;
+    box-shadow: 0px 0px 12px 1px rgb(0 0 0 / 32%);
+}
+.anothertittle p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.fourlogobox {
+    width: 200px;
+}
+
+.col-xs-12.alllogobox {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.fourlogobox.box4 {
+    float: right;
+    width: 156px;
+    padding-top: 14px;
+}
+
+.fourlogobox.box3 {
+    text-align: center;
+}
+
+.fourlogobox.box2 {
+    text-align: center;
+}
+.anothertittle {
+    background: #d9dfed;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.row.imgrow {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.box.box2 {
+    text-align: center;
+}
+
+.box.box3 {
+    text-align: center;
+}
+.box.box4 {
+    text-align: right;
+}
+.box {
+    padding-bottom: 45px;
+    padding-top: 38px;
+}
+.row.nextrow {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.formbox h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2942;
+    padding-bottom: 15px;
+}
+.fiedgroup.full_width input {
+    width: 570px;
+    height: 52px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
+    padding-left: 20px;
+}
+label {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+input#propertyvalue {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fieldgroup {
+    width: 270px;
+}
+.fieldgroup input {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
+}
+
+.post_date {
+    display: flex;
+}
+.fieldgroup.datediv {
+    margin-left: 30px;
+}
+input#postvalue {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#dateofbirth {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footerbutton button {
+    padding: 1em 1.5em;
+    background-color: #e28e07;
+    border-radius: 3px;
+    font-size: 1em;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.footerbutton button:hover {
+    background-color: #c97e06;
+}
+.footerbutton {
+    float: right;
+    margin-right: 14px;
+}
+input#First_Name {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#lastName {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#contactNumber {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#emailAddress {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col-xs-12.col-sm-7.formleftside {
+    border-right: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+.text {
+    width: 200px;
+    padding-left: 34px;
+}
+
+.imgandtxt {
+    display: flex;
+    margin-right: 20px;
+}
+
+.text h4 {
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.client {
+    margin-top: 136px;
+    padding-bottom: 57px;
+}
+
+.text p {
+    font-size: 18px;
+}
+.review p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 0px;
+    padding: 0em;
+}
+
+.review {
+    margin-top: 1.5em;
+    padding: 20px;
+    background-color: #e6e6e6;
+    border-left: 2px solid #e28e07;
+    margin-right: 20px;
+}
+.footerbutton i {
+    padding-left: 10px;
+}
+.imgbox {
+    padding-left: 16px;
+}
+.imgbox h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.descrip_txt p img {
+    width: 30px;
+    margin-right: 0.5em;
+}
+
+.descrip_txt {
+    padding-top: 17px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+}
+
+.descrip_txt p {
+    font-size: 16px;
+}
+.checkicon {
+    width: 27px;
+    align-items: center;
+}
+
+.ptext p {
+    padding-left: 15px;
+}
+
+.checkicon img {
+    width: 30px;
+    padding-top: 5px;
+}
+.imglasttittle h3 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.imglasttittle img {
+    width: 53%;
+    margin: 1em auto;
+}
+.img_fac {
+    text-align: center;
+}
+.imglasttittle p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+input#firstname {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#lastname {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#contactnumber {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#email {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*form area end*/
+/*faq section start*/
+
+.accordion .icon {
+    width: 15px;
+    margin-right: 0.75em;
+    background-image: url(../image/add_box.svg);
+    background-repeat: no-repeat;
+    height: 15px;
+}
+.accordion {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.accordion h2 {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0;
+}
+.panel {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.4s ease-in;
+}
+section.faq {
+    margin-top: 45px;
+}
+.faqtittle h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2942;
+    padding-bottom: 11px;
+}
+.panel p {
+    font-weight: 400;
+    font-size: 16px;
+    width: 74%;
+    color: #000000;
+}
+.panel.secondpanel {
+    transition: all 0.4s ease-in !important;
+}
+
+/*faq section end*/
+/*contact section start*/
+.contactbox {
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.contactbox p {
+    margin: 0;
+}
+.contactbox a {
+    font-size: 2em;
+    color: #e28e07;
+    text-decoration: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.contactbox a:hover {
+    text-decoration: underline;
+}
+
+/*contact section end*/
+/*footer area start*/
+
+footer.footer {
+    background-color: #cccccc;
+}
+.footerimgbox img {
+    width: 267px;
+}
+.footertextbox p {
+    margin: 0;
+    font-size: 13px;
+    color: #808080;
+}
+.footertextbox a {
+    font-size: 13px;
+    color: #808080;
+}
+
+.footertextbox a:hover {
+    color: black;
+}
+.row.footerrow {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    align-items: center;
+}
+
+/*footer area end*/
+
+/*thank you page start*/
+.formandimage.thankyouform {
+}
+.thankyoutext {
+    padding: 2em;
+}
+.thankyoutext h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.thankyoutext p a {
+    color: #1f2942;
+}
+.thankyoutext table tr td {
+    border: 1px solid black;
+    padding: 1em;
+}
+table {
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+/*thank you page end*/

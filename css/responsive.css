@@ -1,0 +1,826 @@
+
+@media only screen and (min-width: 1200px ) and (max-width: 1440px){
+    .fieldgroup {
+    width: 333px;
+}
+.fiedgroup.full_width input {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
+    padding-left: 20px;
+}
+.alldivform {
+    margin-right: 12px;
+}
+}
+/*1024-1440 px*/
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    /*.logobox {
+    padding-top: 20px;
+    margin-left: 0px;
+}
+.textbox {
+    text-align: right;
+    color: white;
+    margin-right: 0px;
+    padding-top: 20px;
+}
+.logobox img {
+    width: 380px;
+    margin-left: 0px;
+}
+.textbox h4 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.textbox h2 {
+    font-size: 26px;
+    font-weight: 400;
+}
+.textbox p {
+    font-size: 12px;
+    font-weight: 400;
+}*/
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 474px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 325px;
+    }
+
+    /*formssection end*/
+}
+
+/*992-1024 px*/
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .logobox img {
+        width: 365px;
+        margin-left: 0px;
+    }
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    .textbox {
+        text-align: right;
+        color: white;
+        margin-right: 0px;
+        padding-top: 20px;
+    }
+
+    .textbox h2 {
+        font-size: 26px;
+        font-weight: 400;
+    }
+    .textbox h4 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 26px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 97%;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 325px;
+    }
+
+    /*formssection end*/
+
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+}
+/*768-992 px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    .logobox img {
+        width: 337px;
+        margin-left: 0px;
+    }
+    .textbox {
+        text-align: right;
+        color: white;
+        margin-right: 0px;
+        padding-top: 20px;
+    }
+    .textbox h2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .textbox h4 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box img {
+        width: 120px;
+    }
+    .fourlogobox.box4 {
+        width: 135px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 344px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 225px;
+    }
+    label {
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 8px;
+    }
+    .fourlogobox img {
+        width: 120px;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox img {
+        width: 213px;
+    }
+    /*footer end*/
+}
+/*576-768 px*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    .logobox img {
+        width: 253px;
+        margin-left: 0px;
+    }
+    .textbox {
+        text-align: right;
+        color: white;
+        margin-right: 0px;
+        padding-top: 20px;
+    }
+    .textbox h4 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .textbox h2 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 19px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box.box3 {
+        text-align: left;
+    }
+    .box.box2 {
+        text-align: right;
+    }
+    .fourlogobox img {
+        width: 90px;
+    }
+    .fourlogobox {
+        width: 93px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 227px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 149px;
+    }
+    .formbox h2 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #1f2942;
+        padding-bottom: 15px;
+    }
+    .imgbox h2 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    .descrip_txt p {
+        font-size: 12px;
+    }
+    .text {
+        width: 200px;
+        padding-left: 15px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+    .text h4 {
+        padding-top: 35px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+    .imgandtxt img {
+        width: 94px;
+    }
+    .imglasttittle h3 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox img {
+        width: 154px;
+    }
+    /*footer end*/
+}
+/*425-576 px*/
+@media only screen and (min-width: 425px) and (max-width: 575px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        width: 401px;
+    }
+    .textbox {
+        text-align: center;
+        color: white;
+        margin-right: 0px;
+        padding-top: 35px;
+        display: none;
+    }
+    .logobox img {
+        width: 300px;
+        margin-left: 0px;
+    }
+    .textbox h4 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .textbox h2 {
+        font-size: 26px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .fourlogobox img {
+        width: 100px;
+    }
+    .box {
+        padding-bottom: 45px;
+        padding-top: 38px;
+        text-align: center;
+    }
+    .box.box4 {
+        text-align: center;
+    }
+    .box img {
+        width: 180px;
+    }
+    section.formsection {
+        margin-top: -210px;
+    }
+    header#header {
+        background: #314d5e;
+        height: 312px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 100%;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    img.headingimg {
+        width: 337px;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    .anothertittle {
+        background: #d9dfed;
+        border-radius: 5px 5px 0px 0px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .post_date {
+        display: block;
+    }
+    .fieldgroup {
+        width: 100%;
+    }
+    .footerbutton {
+        float: right;
+        margin-right: 0px;
+    }
+    .imgbox {
+        padding-left: 0px;
+    }
+    .fourlogobox.box4 img {
+        width: 117px;
+    }
+    .fourlogobox.box4 {
+        float: right;
+        width: 228px;
+        padding-bottom: 30px;
+    }
+    .post_date.firstnamefield {
+        display: block;
+    }
+
+    .fieldgroup.datediv {
+    }
+
+    .post_date.contactnumberfield {
+        display: block;
+    }
+    .col-xs-12.col-sm-7.formleftside {
+        border: none;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox {
+        padding-bottom: 27px;
+    }
+    /*footer end*/
+}
+/*375-425 px*/
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .textbox {
+        text-align: center;
+        color: white;
+        margin-right: 0px;
+        padding-top: 40px;
+        display: none;
+    }
+    .logobox img {
+        width: 290px;
+        margin-left: 0px;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box {
+        padding-bottom: 45px;
+        padding-top: 38px;
+        text-align: center;
+    }
+    .box.box4 {
+        text-align: center;
+    }
+    .box img {
+        width: 180px;
+    }
+    section.formsection {
+        margin-top: -197px;
+    }
+    .textbox h4 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .textbox h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    header#header {
+        background: #314d5e;
+        height: 312px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 100%;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 287px;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    .anothertittle {
+        background: #d9dfed;
+        border-radius: 5px 5px 0px 0px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .post_date {
+        display: block;
+    }
+    .fieldgroup {
+        width: 100%;
+    }
+    .footerbutton {
+        float: right;
+        margin-right: 0px;
+    }
+    .imgbox {
+        padding-left: 0px;
+    }
+    .fourlogobox.box4 img {
+        width: 104px;
+        margin-left: 32px;
+    }
+    .fourlogobox.box4 {
+        float: right;
+        width: 228px;
+        padding-bottom: 30px;
+    }
+    .fourlogobox img {
+        width: 95px;
+    }
+    .post_date.firstnamefield {
+        display: block;
+    }
+
+    .fieldgroup.datediv {
+    }
+
+    .post_date.contactnumberfield {
+        display: block;
+    }
+    .col-xs-12.col-sm-7.formleftside {
+        border: none;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox {
+        padding-bottom: 27px;
+    }
+    /*footer end*/
+}
+/*320-375 px*/
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .textbox {
+        text-align: center;
+        color: white;
+        margin-right: 0px;
+        padding-top: 40px;
+        display: none;
+    }
+    .logobox img {
+        width: 224px;
+        margin-left: 0px;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box {
+        padding-bottom: 45px;
+        padding-top: 38px;
+        text-align: center;
+    }
+    .box.box4 {
+        text-align: center;
+    }
+    .box img {
+        width: 160px;
+    }
+    section.formsection {
+        margin-top: -197px;
+    }
+    .textbox h4 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .textbox h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    header#header {
+        background: #314d5e;
+        height: 300px;
+    }
+    .fourlogobox.box4 img {
+        width: 102px;
+        margin-left: 62px;
+    }
+    .fourlogobox.box4 {
+        width: 228px;
+        padding-bottom: 30px;
+    }
+    .fourlogobox img {
+        width: 80px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 100%;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    img.headingimg {
+        width: 232px;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    label {
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 8px;
+    }
+    input,
+    input::-webkit-input-placeholder {
+        font-size: 11px;
+    }
+    .imgbox {
+        padding-left: 0px;
+    }
+    .imgandtxt {
+        margin-right: 0px;
+        display: block;
+        text-align: center;
+    }
+    .text {
+        width: 200px;
+        padding-left: 0px;
+    }
+    .review {
+        margin-top: 1.5em;
+        padding: 20px;
+        background-color: #e6e6e6;
+        border-left: 2px solid #e28e07;
+        margin-right: 0px;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    .anothertittle {
+        background: #d9dfed;
+        border-radius: 5px 5px 0px 0px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .post_date {
+        display: block;
+    }
+    .fieldgroup {
+        width: 100%;
+    }
+    .footerbutton {
+        float: right;
+        margin-right: 0px;
+    }
+    .imgbox {
+        padding-left: 0px;
+    }
+    .post_date.firstnamefield {
+        display: block;
+    }
+
+    .fieldgroup.datediv {
+    }
+
+    .post_date.contactnumberfield {
+        display: block;
+    }
+    .col-xs-12.col-sm-7.formleftside {
+        border: none;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    .accordion h2 {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .faqtittle h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #1f2942;
+        padding-bottom: 11px;
+    }
+
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox {
+        padding-bottom: 27px;
+    }
+    /*footer end*/
+}

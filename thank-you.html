@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css.map" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <!-- fontawesome link -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- responsive css -->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+        <title>Equity Release Trust | Equity Release Trust</title>
+    </head>
+    <body>
+        <!-- navigation start -->
+        <header id="header" class="">
+            <div class="container-fluid">
+                <div class="row logo_text">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="logobox">
+                            <img src="image/logo.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="textbox">
+                            <h4>For Expert Equity Release Advice</h4>
+                            <h2>Call 0808 115 6517</h2>
+                            <p>Mon-Fri 9AM to 8PM | Sat 9AM to 1:00PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+        <!-- form section start -->
+        <section class="formsection">
+            <div class="container">
+                <div class="headertext">
+                    <p>Thank You</p>
+                </div>
+                <div class="formandimage thankyouform">
+                    <div class="thankyoutext">
+                        <p><span id="last_name"></span>,thank you for your enquiry regarding Equity Release.</p>
+                        <h2>What Happens Next?</h2>
+                        <p>One of our Equity Release specialists will be in contact with you shortly to discuss your options and find out more about your individual circumstances.</p>
+                        <h2>Your Details</h2>
+                        <p>
+                            Below is confirmation of the details you have provided, we will use these to contact you regarding your enquiry. If you would like to update your contact details please call us free on
+                            <a href="tel:0800 088 2643">0800 088 2643</a> or email <a href="">info@equityreleasetrust.co.uk.</a>
+                        </p>
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Your Name</td>
+                                    <td><span id="firsts-name"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Contact Number</td>
+                                    <td><span id="contact-number"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Email Address</td>
+                                    <td><span id="email-email"></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>We look forward to speaking to you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- form section end -->
+
+        <!-- contact section start -->
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="contactbox">
+                            <p>
+                                If you have a question about how Equity Release could help you, or <br />
+                                would like to know more give us a call.
+                            </p>
+                            <a href="tel:0800 088 2643">0800 088 2643</a>
+                            <p class="opentime">
+                                Free from landlines and mobiles.<br />
+                                Mon-Fri 9AM to 8PM | Sat 9AM to 1:00PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section end -->
+        <!-- footer area start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row footerrow">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footerimgbox">
+                            <img src="image/footerlogo.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-8">
+                        <div class="footertextbox">
+                            <p>
+                                This is an independent marketing website which acts as an introducer to companies who offer specialist Independent Financial Advice. Each company is authorized and regulated by the Financial Conduct
+                                Authority. We are not authorized to give advice and we are not liable for any financial advice provided by or obtained through a third party. The information published on this website is for information
+                                purposes only.
+                            </p>
+
+                            <a href="">Privacy Policy</a>
+                            <br />
+                            <br />
+                            <p class="copyright">© Equity Release Trust 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+
+        <script src="js/bootstrap.min.js.map"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+            document.getElementById("last_name").innerHTML = sessionStorage.getItem("firstnamevalue");
+            document.getElementById("firsts-name").innerHTML = sessionStorage.getItem("firstnamevalue") + " " + sessionStorage.getItem("lastnamevalue");
+            document.getElementById("contact-number").innerHTML = sessionStorage.getItem("contactnumbervalue");
+            document.getElementById("email-email").innerHTML = sessionStorage.getItem("emailvalue");
+        </script>
+    </body>
+</html>
